@@ -1,4 +1,5 @@
-# Experiment 1.8
+# SparkFun Electronics
+# Experiment 9.0
 # Using a buzzer
 
 from microbit import *

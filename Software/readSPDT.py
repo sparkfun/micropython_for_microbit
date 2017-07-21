@@ -1,4 +1,5 @@
-# Experiment 1.4
+# SparkFun Electronics
+# Experiment 5.0
 # Reading an SPDT Switch
 
 from microbit import *

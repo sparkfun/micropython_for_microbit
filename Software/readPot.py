@@ -1,9 +1,10 @@
-# Experiment 1.1
+# SparkFun Electronics
+# Experiment 2.0
 # Reading a Potentiometer
 
 from microbit import *
 
 while True:
-    potentiometerVal = pin2.read_analog()
-    pin0.write_analog(potentiometerVal)
+    potVal = pin2.read_analog()
+    pin0.write_analog(potVal)
     sleep(25)

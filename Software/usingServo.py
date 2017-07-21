@@ -1,7 +1,6 @@
-# Experiment 1.7
+# SparkFun Electronics
+# Experiment 8.0
 # Using a servo motor
-# User must download Servo.py:
-# https://github.com/microbit-playground/microbit-servo-class
 
 from microbit import *
 
@@ -15,7 +14,7 @@ class Servo:
         self.angle = angle
         self.analog_period = 0
         self.pin = pin
-        analog_period = round((1/self.freq) * 1000)
+        analog_period = round((1/self.freq) * 1000)  # hertz to miliseconds
         self.pin.set_analog_period(analog_period)
 
     def write_us(self, us):

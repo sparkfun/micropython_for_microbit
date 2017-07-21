@@ -1,4 +1,5 @@
-# Experiment 1.5
+# SparkFun Electronics
+# Experiment 6.0
 # Reading a button press
 
 from microbit import *

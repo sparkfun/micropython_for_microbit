@@ -1,4 +1,5 @@
-# Experiment 1.3
+# SparkFun Electronics
+# Experiment 4.0
 # Driving an RGB LED
 
 from microbit import *

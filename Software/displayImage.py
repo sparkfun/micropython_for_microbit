@@ -1,6 +1,8 @@
+# SparkFun Electronics
 # Experiment 0.1
 # Display an image
 
 from microbit import *
 
-display.show(Image.DUCK)
+while True:
+    display.show(Image.DUCK)

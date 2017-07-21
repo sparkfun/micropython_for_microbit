@@ -1,4 +1,5 @@
-# Experiment 1.2
+# SparkFun Electronics
+# Experiment 3.0
 # Reading a Photoresistor
 
 from microbit import *
