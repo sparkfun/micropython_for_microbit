@@ -30,8 +30,10 @@ class Servo:
         self.write_us(us)
 
 
-Servo(pin0).write_angle(0)
+servo = Servo(pin0)
+servo.write_angle(0)
 while True:
     num = accelerometer.get_x()
-    mymap = dict(zip(range(-29, 30), range(0, 181, 3)))
-    Servo(pin0).write_angle(mymap[num])
+    sleep(100)
+    # scale the accelerometer values to a value between 0 and 180. 
+    servo.write_angle(num * 180 / 2048 + 90)
