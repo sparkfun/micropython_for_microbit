@@ -5,6 +5,9 @@
 from microbit import *
 import music
 
+# disable built-in speaker on micro:bit v2 and output to external speaker from pin P0
+speaker.off()
+
 while True:
     if pin15.read_digital() == 1:
         music.play("C4:8")
