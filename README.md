@@ -1,4 +1,4 @@
-Getting Started with MicroPython
+Getting Started with MicroPython for micro:bit
 ========================================
 
 Repository Contents
